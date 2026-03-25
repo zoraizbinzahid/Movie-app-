@@ -1,16 +1,22 @@
-# React + Vite
+# CineSearch 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1909" height="1068" alt="Screenshot 2026-03-25 112501" src="https://github.com/user-attachments/assets/36cf5e3f-e23c-4789-bbdd-95e95ca33ba5" />
 
-Currently, two official plugins are available:
+A modern movie discovery application that brings cinema to your fingertips. This project was developed as a pixel-perfect translation of a Figma design into a functional, responsive web app using React and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Key Features
+- **Design-to-Code:** Pixel-perfect implementation from Figma wireframes.
+- **Instant Search:** Dynamic search functionality to find any movie in real-time.
+- **Trending Top 10:** A curated, data-driven leaderboard of the most popular films.
+- **Fast Performance:** Optimized build and hot-module replacement (HMR) via Vite.
+- **Data Persistence:** Integrated backend services to track trending metrics.
 
-## React Compiler
+## 🛠️ Tech Stack
+- **Framework:** React.js
+- **Build Tool:** Vite
+- **Styling:** CSS3 / Tailwind CSS
+- **Database/Backend:** Appwrite (for trending data)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Setup Instructions
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Live at: https://movie-app-mu-gold.vercel.app/
